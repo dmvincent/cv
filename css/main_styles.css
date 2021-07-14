@@ -35,6 +35,30 @@ body {
   background-color: black;
 }
 
+.row6 {
+  height:500px;
+  width:100%;
+  background-color: black;
+}
+
+.row7 {
+  height:500px;
+  width:100%;
+  background-color: black;
+}
+
+.row8 {
+  height:500px;
+  width:100%;
+  background-color: black;
+}
+
+.row9 {
+  height:500px;
+  width:100%;
+  background-color: black;
+}
+
 .pic1 {
   position: relative;
   top: 40px;
@@ -70,6 +94,24 @@ body {
   margin-top:0;
   right:0;
   background-color: black;
+}
+
+.pic7 {
+  position: absolute;
+  margin-top:0;
+  left:0;
+}
+
+.pic8 {
+  position: absolute;
+  margin-top:0;
+  right:0;
+}
+
+.pic9 {
+  position: absolute;
+  margin-top:0;
+  left:0;
 }
 
 h1 {
