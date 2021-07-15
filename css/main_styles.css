@@ -114,6 +114,12 @@ body {
   left:0;
 }
 
+.pic10 {
+  position: absolute;
+  margin-top:0;
+  right:0;
+}
+
 h1 {
   position: absolute;
   top:20px;
