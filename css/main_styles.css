@@ -57,6 +57,7 @@ body {
 .row9 {
   height:500px;
   width:100%;
+  text-align: center;
 }
 
 .pic1 {
@@ -114,9 +115,8 @@ body {
 }
 
 .pic10 {
-  position: absolute;
+  position: relative;
   margin-top:70px;
-  left:33%;
 }
 
 h1 {
