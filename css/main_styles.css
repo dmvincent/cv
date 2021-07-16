@@ -29,17 +29,17 @@ p {
 }
 
 .row1 {
-  height:500px;
+  height:600px;
   width:100%;
   background-color: black;
 }
 
 .row2 {
-  height:500px;
+  height:600px;
   width:100%;
-  background-color: black;
   margin-right: auto;
   margin-left: auto;
+  background-color: black;
 }
 
 .row3 {
@@ -95,7 +95,7 @@ p {
   display:inline-block;
   margin-left: 0;
   position: relative;
-  top: 40px;
+  top: 100px;
   right: 50px;
 }
 
@@ -118,7 +118,7 @@ p {
 
 .pic2 {
   position: relative;
-  top: 75px;
+  top: 125px;
   float:right;
 }
 
@@ -147,6 +147,7 @@ p {
   text-decoration: underline;
   margin-top: 0;
   margin-bottom:0;
+  text-decoration-thickness: 1px;
 }
 /*
 .pic3 {
@@ -173,7 +174,7 @@ p {
   position: relative;
   top: 80px;
   float: right;
-  margin-left: 0px;
+  margin-left: 0;
 
 }
 
@@ -263,6 +264,7 @@ p {
   width:50%;
   position: relative;
   left:0;
+  top:90px;
   display: inline-block;
   align-content: center;
 
@@ -296,6 +298,58 @@ ul {
 
 .outer_list_b {
   margin-top:10px;
+}
+
+.links {
+  position:relative;
+  top:100px;
+  margin:0 auto 0 auto;
+  text-align: center;
+}
+
+
+
+
+
+
+
+/*
+/* Style all font awesome icons
+.fa {
+padding: 20px;
+  font-size: 30px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+}*/
+
+.fa {
+  padding: 14px;
+  font-size: 4px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30%;
+  margin-bottom: 5px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-github {
+  background: white;
+  color: black;
+}
+
+/* Twitter */
+.fa-linkedin {
+  background: #2867B2;
+  color: white;
 }
 
 
