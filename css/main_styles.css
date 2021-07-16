@@ -282,12 +282,14 @@ p {
 }*/
 
 ul {
-  /*list-style: "\02666\ ";*/
   list-style: "\027A3\ ";
+  margin: 0 auto;
+  display: table;
 }
 
 .inner_list {
   list-style:circle;
+  margin-left: 0;
 }
 
 .outer_list {
