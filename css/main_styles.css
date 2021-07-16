@@ -266,6 +266,10 @@ p {
   align-content: center;
 }
 
+.adjust1 {
+  position: relative;
+  left: 75px;
+}
 /*.description {
   font-size: 1em;
   font-weight:500;
