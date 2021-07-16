@@ -5,18 +5,7 @@ body {
   color:white;
   margin:0;
   background-color: black;
-
-
-
-
-
-	 /*text-align: center;*/
-	 /*background: #fcfcfa;*/
-	 /*color: #818078;*/
-	 /*font-family: Futura, sans-serif;*/
 }
-
-
 
 h1 {
   margin:0;
@@ -35,13 +24,7 @@ p {
   background-color: black;
 }
 
-.row2 {
-  height:600px;
-  width:100%;
-  margin-right: auto;
-  margin-left: auto;
-  background-color: black;
-}
+
 
 .row3 {
   margin-right: auto;
@@ -110,13 +93,6 @@ p {
 
 }
 
-/*.pic2 {
-  position: absolute;
-  margin-top: 110px;
-  right: 0;
-  display: inline-block;
-}*/
-
 .pic2 {
   position: relative;
   top: 125px;
@@ -150,14 +126,6 @@ p {
   margin-bottom:0;
   text-decoration-thickness: 1px;
 }
-/*
-.pic3 {
-  margin-top: 70px;
-  position: absolute;
-  left: 130px;
-  background-color: purple;
-}
-*/
 
 .row4_col1{
   position: relative;
@@ -259,17 +227,24 @@ p {
   display: block;
 }
 
-.description {
+.row2 {
+  height:600px;
+  width:100%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: black;
+}
+
+.skills {
+  margin:0 auto 0 auto;
+  height:600px;
+  width:65%;
   font-size: 1em;
   font-weight:500;
-  width:50%;
   position: relative;
   left:0;
   top:90px;
-  display: inline-block;
   align-content: center;
-
-
 }
 
 /*.description {
@@ -308,21 +283,7 @@ ul {
   text-align: center;
 }
 
-
-
-
-
-
-
-/*
-/* Style all font awesome icons
-.fa {
-padding: 20px;
-  font-size: 30px;
-  width: 100px;
-  text-align: center;
-  text-decoration: none;
-}*/
+/* Adding Icon Buttons */
 
 .fa {
   padding: 14px;
@@ -353,28 +314,7 @@ padding: 20px;
   color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Adding <hr> styling */
  .container {
 	 max-width: 50%;
 	 margin: 40px auto;
