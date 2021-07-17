@@ -2,7 +2,7 @@ body {
   margin:0;
   font-family:'Montserrat', sans-serif;
   background-image:url(mars.jpg);
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 
 a {
