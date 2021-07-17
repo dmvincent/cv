@@ -5,6 +5,7 @@ body {
   margin:0;
   background-color: black;
   font-family: 'Montserrat', sans-serif;
+  font-weight:400;
 }
 
 h1 {
@@ -246,16 +247,14 @@ ul {
 }
 
 
-@font-face {
+/*@font-face {
   font-family: 'Montserrat';
   src: url('Montserrat-ThinItalic.eot');
   src: url('Montserrat-ThinItalic.eot?#iefix') format('embedded-opentype'),
        url('Montserrat-ThinItalic.woff') format('woff'),
        url('Montserrat-ThinItalic_625a1c7fa0eb2b83f0ca4eb56225e0ba.ttf')  format('truetype'),
        url('Montserrat-ThinItalic.svg#svgFontName') format('svg');
-
-  font-weight:900;
-}
+}*/
 
 
 /*@font-face {
