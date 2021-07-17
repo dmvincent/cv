@@ -1,7 +1,7 @@
 /* Mobile friendly version */
 body {
   font-family:'Montserrat', sans-serif;
-  font-weight:500;
+  font-weight:700;
   /*color: #c8c8c8;*/
   color:white;
   margin:0;
@@ -23,6 +23,7 @@ p {
   height:600px;
   width:100%;
   background-color: black;
+  font-weight:700;
 }
 
 .outer_row {
@@ -104,6 +105,7 @@ p {
   right: 2%;
   top: 5px;
   font-size: 2.2rem;
+  font-weight: 700;
 }
 
 .my_titles {
