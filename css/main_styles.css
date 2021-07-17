@@ -58,7 +58,7 @@ p {
 
 .media_file {
   position: relative;
-  top: 0;
+  top: 70px;
   background-color: black;
   margin: 0 auto 0 auto;
   display: block;
@@ -69,6 +69,7 @@ p {
   font-size: 1.5em;
   font-weight: 400;
   text-align: center;
+  margin:50px;
 }
 
 .row4_col1{
