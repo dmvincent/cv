@@ -5,7 +5,6 @@ body {
   margin:0;
   background-color: black;
   font-family: 'Montserrat', sans-serif;
-  font-weight:400;
 }
 
 h1 {
@@ -104,6 +103,7 @@ p {
   right: 2%;
   top: 5px;
   font-size: 1.8rem;
+  font-weight:100;
 }
 
 .my_titles {
