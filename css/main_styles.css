@@ -103,7 +103,6 @@ p {
   right: 2%;
   top: 5px;
   font-size: 1.8rem;
-  font-weight: 700;
 }
 
 .my_titles {
@@ -246,7 +245,7 @@ ul {
 	 background-color: black;
 }
 
-
+/*
 @font-face {
   font-family: 'Montserrat';
   src: url('Montserrat-ThinItalic.eot');
@@ -255,8 +254,22 @@ ul {
        url('Montserrat-ThinItalic_625a1c7fa0eb2b83f0ca4eb56225e0ba.ttf')  format('truetype'),
        url('Montserrat-ThinItalic.svg#svgFontName') format('svg');
 
-  font-weight:bold;
+  font-weight:700;
+}*/
+
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-SemiBoldItalic.eot');
+    src: url('Montserrat-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Montserrat-SemiBoldItalic.woff') format('woff'),
+        url('Montserrat-SemiBoldItalic.ttf') format('truetype'),
+        url('Montserrat-SemiBoldItalic.svg#Montserrat-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
 }
+
 
 
 /*@font-face {
