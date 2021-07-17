@@ -264,7 +264,7 @@ ul {
         url('Montserrat-BoldItalic.woff') format('woff'),
         url('Montserrat-BoldItalic.ttf') format('truetype'),
         url('Montserrat-BoldItalic.svg#Montserrat-BoldItalic') format('svg');
-    font-weight: bold;
+    /*font-weight: bold;
     font-style: italic;
-    font-display: swap;
+    font-display: swap;*/
 }
