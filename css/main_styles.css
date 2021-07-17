@@ -249,8 +249,13 @@ ul {
 
 
 
+
+
 @font-face {
   font-family: 'MyWebFont';
-  src: url('Montserrat-ThinItalic_625a1c7fa0eb2b83f0ca4eb56225e0ba.ttf'); /* IE9 Compat Modes */
-
+  src: url('Montserrat-ThinItalic.eot'); /* IE9 Compat Modes */
+  src: url('Montserrat-ThinItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Montserrat-ThinItalic.woff') format('woff'), /* Modern Browsers */
+       url('Montserrat-ThinItalic_625a1c7fa0eb2b83f0ca4eb56225e0ba.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Montserrat-ThinItalic.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
