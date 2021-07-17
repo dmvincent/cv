@@ -16,7 +16,6 @@ body:after{
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-
 }
 
 a {
@@ -32,14 +31,23 @@ a:hover {
 h1{
   margin:0 0 0 0;
 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+  font-style: italic;
 }
 
 
 
 /******** Top Container *********/
 .top-container {
+
   text-align: center;
-  margin:100% auto 0 auto;
+  margin:25% auto 0 auto;
+  display: block;
+  height: 35px;
+
 }
 
 
