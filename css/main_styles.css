@@ -4,6 +4,7 @@ body {
   color:white;
   margin:0;
   background-color: black;
+  font-family: Montserrat, sans-serif;
 }
 
 h1 {
@@ -102,7 +103,7 @@ p {
   right: 2%;
   top: 5px;
   font-size: 1rem;
-  font-family:'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
   font-weight: 700;
   font-style: italic;
 }
