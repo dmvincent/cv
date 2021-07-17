@@ -1,6 +1,7 @@
 /* Mobile friendly version */
 body {
   font-family:'Montserrat', sans-serif;
+  font-weight:500;
   /*color: #c8c8c8;*/
   color:white;
   margin:0;
