@@ -1,4 +1,8 @@
 /* Mobile friendly version */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,600;1,700&display=swap');
+
+
 body {
   /*color: #c8c8c8;*/
   color:white;
@@ -13,13 +17,11 @@ body {
 }*/
 
 h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 700;
 }
-
-
 
 p {
   margin-top: 5px;
@@ -30,7 +32,6 @@ p {
   font-size: 1.5rem;
   line-height: 1.5;
   font-weight: 400;
-
 }
 
 .row1 {
