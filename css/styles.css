@@ -1,11 +1,9 @@
-/*body {
-  margin:0;
+body {
   font-family:'Montserrat', sans-serif;
-  background-image:url(mars.jpg);
-  background-attachment: scroll;
-}*/
+}
 
 body:after{
+      font-family:'Montserrat', sans-serif;
       content:"";
       position:fixed; /* stretch a fixed position to the whole screen */
       top:0;
@@ -18,6 +16,7 @@ body:after{
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
+
 }
 
 a {
@@ -29,8 +28,9 @@ a:hover {
   color:white;
   text-decoration:underline;
 }
+
 h1{
-  margin:25%;
+  margin:0 0 0 0;
 
 }
 
@@ -39,7 +39,7 @@ h1{
 /******** Top Container *********/
 .top-container {
   text-align: center;
-  margin:0 auto 0 auto;
+  margin:25% auto 0 auto;
 }
 
 
