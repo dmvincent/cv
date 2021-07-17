@@ -21,6 +21,7 @@ h1 {
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 700;
+  font-style: italic;
 }
 
 p {
@@ -32,6 +33,7 @@ p {
   font-size: 1.5rem;
   line-height: 1.5;
   font-weight: 400;
+  font-style: italic;
 }
 
 .row1 {
