@@ -102,8 +102,8 @@ p {
   position: absolute;
   right: 2%;
   top: 5px;
-  font-size: 2rem;
-  font-weight: bolder;
+  font-size: 2.2rem;
+  font-weight: 700;
 }
 
 .my_titles {
@@ -246,25 +246,27 @@ ul {
 	 background-color: black;
 }
 
-/*
-@font-face {
-  font-family: 'Montserrat';
-  src: url('Montserrat-ThinItalic.eot');  IE9 Compat Modes
-  src: url('Montserrat-ThinItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8
-       url('Montserrat-ThinItalic.woff') format('woff'), /* Modern Browsers
-       url('Montserrat-ThinItalic_625a1c7fa0eb2b83f0ca4eb56225e0ba.ttf')  format('truetype'), /* Safari, Android, iOS
-       url('Montserrat-ThinItalic.svg#svgFontName') format('svg'); /* Legacy iOS
-}
-*/
 
 @font-face {
+  font-family: 'Montserrat';
+  src: url('Montserrat-ThinItalic.eot');
+  src: url('Montserrat-ThinItalic.eot?#iefix') format('embedded-opentype'),
+       url('Montserrat-ThinItalic.woff') format('woff'),
+       url('Montserrat-ThinItalic_625a1c7fa0eb2b83f0ca4eb56225e0ba.ttf')  format('truetype'),
+       url('Montserrat-ThinItalic.svg#svgFontName') format('svg');
+
+  font-wight:bold;
+}
+
+
+/*@font-face {
     font-family: 'Montserrat';
     src: url('Montserrat-BoldItalic.eot');
     src: url('Montserrat-BoldItalic.eot?#iefix') format('embedded-opentype'),
         url('Montserrat-BoldItalic.woff') format('woff'),
         url('Montserrat-BoldItalic.ttf') format('truetype'),
         url('Montserrat-BoldItalic.svg#svgFontName') format('svg');
-    /*font-weight: bold;
+    font-weight: bold;
     font-style: italic;
-    font-display: swap;*/
-}
+    font-display: swap;
+}*/
