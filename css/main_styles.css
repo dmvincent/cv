@@ -4,7 +4,7 @@ body {
   color:white;
   margin:0;
   background-color: black;
-  font-family: Montserrat, sans-serif;
+  font-family: MyWebFont, sans-serif;
 }
 
 h1 {
@@ -103,7 +103,6 @@ p {
   right: 2%;
   top: 5px;
   font-size: 1rem;
-  font-family: Montserrat, sans-serif;
   font-weight: 700;
   font-style: italic;
 }
@@ -246,4 +245,12 @@ ul {
 	 padding: 0 0.5em;
 	 line-height: 1.5em;
 	 background-color: black;
+}
+
+
+
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('Montserrat-ThinItalic_625a1c7fa0eb2b83f0ca4eb56225e0ba.ttf'); /* IE9 Compat Modes */
+
 }
