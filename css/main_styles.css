@@ -26,10 +26,11 @@ p {
   margin-bottom: 5px;
   border-width: medium;
   padding-top: 3px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
   line-height: 1.5;
   font-weight: 400;
+
 }
 
 .row1 {
