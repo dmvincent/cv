@@ -157,13 +157,24 @@ p {
   font-weight:500;
   position: relative;
   left:0;
-  top:85px;
+  top:0;
   align-content: center;
 }
 
 .skills_header {
   position: relative;
-  bottom: 20px;
+  bottom: 0;
+}
+
+.skill_table {
+  position: relative;
+  /*top: 30px;*/
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .adjust1 {
@@ -175,6 +186,7 @@ ul {
   list-style: "\027A3\ ";
   margin: 0 auto;
   display: table;
+  position: relative;
 }
 
 .inner_list {
