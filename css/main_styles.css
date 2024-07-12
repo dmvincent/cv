@@ -177,6 +177,43 @@ p {
   font-style: italic;
 }
 
+.posts {
+  margin:0px auto 0px auto;
+  height:1150px;
+  width:65%;
+  font-size: 1rem;
+  font-weight:500;
+  position: relative;
+  left:0;
+  top:0;
+  align-content: center;
+}
+
+.posts_header {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.posts_row {
+  margin-right: auto;
+  margin-left: auto;
+  height:300px;
+  width:75%;
+  background-color: black;
+  position: relative;
+  top: -250px;
+}
+
+.project_description {
+  margin-right: auto;
+  margin-left: auto;
+  height:auto;
+  width:100%;
+  background-color: black;
+  position: relative;
+}
+
 .adjust1 {
   position: relative;
   left: 75px;
