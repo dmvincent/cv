@@ -159,28 +159,44 @@
     <hr class="hr-text" data-content="AN">
   </div>
 
-  <div class="posts">
-    <div class="posts_header">
+  <div class="posts_outer_row_header">
+    <div class="posts_row_header">
       <h1>What I am currently working on...</h1>
     </div>
-    <div class="posts_row">
+  </div>
+
+  <div class="posts_description_row">
+    <div class="date_outer_row">
       <p class="date">Date: July 11, 2024</p>
-      <p class="project_description"> In order to correctly measure the ambient temperature and relative humidity, I decided to interface a DHT11 Humidity & Temperature Sensor with an STM32F769I Discovery Board. Once the Discovery Board receives the temperature and humidity from the sensor, it then relays the message to a minicom session over UART. The sensor itself uses a single-wire serial interface transmitting either a "1" or "0", depending on how long it holds the data line high. In the video below, you can find verification of the response from the DHT11 using a low-cost logic analyzer. </p>
-      <video class="media_file" width="700" height="600" autoplay muted loop playsinline>
-        <source src="css/dht11_readout.mp4" type="video/mp4" alt="dht11_sensor_readout">
-      </video>
+    </div>
+    <div class="blog_post_github_link_outer_row">
+      <div class="blog_post_github_link">
+        <p><a href="https://github.com/dmvincent/STM32_DHT11_Readout" class="fa_github_project fa_github_project-github">Project Link</a></p>
+        <!--<p>Project Link</p>-->
+      </div>
     </div>
 
+    <div class="project_description_outer_row">
+      <p class="project_description">In order to correctly measure the ambient temperature and relative humidity, I decided to interface a DHT11 Humidity & Temperature Sensor with an STM32F769I Discovery Board. Once the Discovery Board receives the temperature and humidity from the sensor, it then relays the message to a minicom session over UART. The sensor itself uses a single-wire serial interface transmitting either a "1" or "0", depending on how long it holds the data line high. In the video below, you can find verification of the response from the DHT11 using a low-cost logic analyzer. </p>
+    </div>
   </div>
+  <div class="blog_7_11_24_media">
+    <video class="blog_7_11_24_media_1" width="700" height="600" autoplay muted loop playsinline>
+      <source src="css/dht11_readout.mp4" type="video/mp4" alt="dht11_sensor_readout">
+    </video>
+  </div>
+
 
   <div class="container">
     <hr class="hr-text" data-content="AN">
   </div>
 
   <div class="row9">
+    <!--
     <video class="pic10" width="400" height="363" autoplay muted loop playsinline>
       <source src="css/optical_flow_1.mp4" type="video/mp4" alt="Hello">
     </video>
+  -->
     <div class="links">
       <a href="https://github.com/dmvincent" class="fa fa-github">
       </a>

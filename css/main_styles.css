@@ -51,7 +51,7 @@ p {
 }
 
 .row9 {
-  height:600px;
+  height:200px;
   width:100%;
   text-align: center;
 }
@@ -177,6 +177,7 @@ p {
   font-style: italic;
 }
 
+/*
 .posts {
   margin:0px auto 0px auto;
   height:1150px;
@@ -189,9 +190,9 @@ p {
   align-content: center;
 }
 
+
 .posts_header {
-  position: absolute;
-  top: 0;
+  position: relative;
   bottom: 0;
 }
 
@@ -204,7 +205,7 @@ p {
   position: relative;
   top: -250px;
 }
-
+*/
 .project_description {
   margin-right: auto;
   margin-left: auto;
@@ -214,6 +215,116 @@ p {
   position: relative;
 }
 
+/*
+.skills {
+  margin:0 auto 0 auto;
+  height:600px;
+  width:65%;
+  font-size: 1rem;
+  font-weight:500;
+  position: relative;
+  left:0;
+  top:0;
+  align-content: center;
+}
+*/
+.posts_outer_row_header {
+  margin-right: auto;
+  margin-left: auto;
+  height:140px;
+  width:65%;
+  background-color: black;
+  position: relative;
+  bottom: 0px;
+  left:0px; 
+}
+
+.posts_row_header {
+  margin-right: auto;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  height:80px;
+  background-color: black;
+  position: relative;
+  left: 0px;
+  top: 45px;
+}
+
+.posts_description_row {
+  margin-right: auto;
+  margin-left: auto;
+  height:350px;
+  width:65%;
+  position: relative;
+  background-color: black;
+}
+
+.date_outer_row {
+  margin-left:0px;
+  margin-top: 0px;
+  height: 80px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.date {
+  margin-left:0px;
+  margin-bottom: 0px;
+  height: 40px;
+  position: relative;
+  top: 30px;
+  left: 0px;
+  text-decoration:underline;
+}
+
+.blog_post_github_link_outer_row {
+  margin-left:0px;
+  margin-top: 0px;
+  height: 50px;
+  position: relative;
+  top: 10px;
+  left: 0px;
+}
+
+.blog_post_github_link {
+  margin-left:0px;
+  margin-bottom: 0px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.project_description_outer_row {
+  margin-left: 0px;
+  margin-top: 0px;
+  height: 150px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.project_description {
+  margin-left: 0px;
+  margin-top: 0px;
+  position: relative;
+  top: 40px;
+  left: 0px;
+}
+
+.blog_7_11_24_media {
+  height: 500px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.blog_7_11_24_media_1 {
+  margin: auto;
+  position: relative;
+  top: -80px;
+  display: block;
+}
 .adjust1 {
   position: relative;
   left: 75px;
@@ -262,6 +373,26 @@ ul {
 /* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
+}
+
+.fa_github_project {
+  padding: 14px;
+  font-size: 20px;
+  width: 45px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 15%;
+  margin-bottom: 5px;
+}
+
+/* Add a hover effect if you want */
+.fa_github_project:hover {
+  opacity: 0.7;
+}
+
+.fa_github_project-github {
+  background: white;
+  color: black;
 }
 
 /* Set a specific color for each brand */
