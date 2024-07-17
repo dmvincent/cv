@@ -298,7 +298,7 @@ p {
 .project_description_outer_row {
   margin-left: 0px;
   margin-top: 0px;
-  height: 400px;
+  height: 500px;
   position: relative;
   top: 0px;
   left: 0px;
@@ -325,6 +325,21 @@ p {
   top: -40px;
   display: block;
 }
+
+.blog_7_14_24_media {
+  height: 500px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.blog_7_14_24_media_1 {
+  margin: auto;
+  position: relative;
+  top: -40px;
+  display: block;
+}
+
 .adjust1 {
   position: relative;
   left: 75px;
