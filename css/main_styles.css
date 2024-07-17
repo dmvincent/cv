@@ -253,7 +253,7 @@ p {
 .posts_description_row {
   margin-right: auto;
   margin-left: auto;
-  height:350px;
+  height:500px;
   width:65%;
   position: relative;
   background-color: black;
@@ -298,7 +298,7 @@ p {
 .project_description_outer_row {
   margin-left: 0px;
   margin-top: 0px;
-  height: 150px;
+  height: 500px;
   position: relative;
   top: 0px;
   left: 0px;
