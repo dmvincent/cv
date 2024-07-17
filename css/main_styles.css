@@ -322,11 +322,7 @@ p {
 .blog_7_11_24_media_1 {
   margin: auto;
   position: relative;
-<<<<<<< HEAD
-  top: 0px;
-=======
-  top: 10px;
->>>>>>> feature/updates
+  top: 20px;
   display: block;
 }
 
