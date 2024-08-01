@@ -370,6 +370,21 @@ p {
 
 }
 
+.blog_8_01_24_media {
+  height: 500px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.blog_8_01_24_media_1 {
+  margin: auto;
+  position: relative;
+  top: 0px;
+  display: block;
+
+}
+
 .adjust1 {
   position: relative;
   left: 75px;
